@@ -1,0 +1,26 @@
+diff -Nur z8530drv-utils-3.0.orig/Makefile z8530drv-utils-3.0/Makefile
+--- z8530drv-utils-3.0.orig/Makefile	2000-09-18 11:02:04.000000000 +0200
++++ z8530drv-utils-3.0/Makefile	2007-02-21 21:29:05.000000000 +0100
+@@ -25,15 +25,15 @@
+ 	${CC} ${CCOPT} kissbridge.c -o $@
+ 
+ install:
+-	install -g root -o root -m 0755 sccstat ${prefix}/sbin/sccstat
+-	install -g root -o root -m 0700 sccinit ${prefix}/sbin/sccinit
+-	install -g root -o root -m 0700 sccparam ${prefix}/sbin/sccparam
+-	install -g root -o root -m 0755 sccgencfg ${prefix}/usr/sbin/sccgencfg 
+-	install -g root -o root -m 0700 kissbridge ${prefix}/usr/sbin/kissbridge
++	install -m 0755 sccstat ${prefix}/sbin/sccstat
++	install -m 0700 sccinit ${prefix}/sbin/sccinit
++	install -m 0700 sccparam ${prefix}/sbin/sccparam
++	install -m 0755 sccgencfg ${prefix}/usr/sbin/sccgencfg 
++	install -m 0700 kissbridge ${prefix}/usr/sbin/kissbridge
+ 	if [ -f ${prefix}/etc/ax25/z8530drv.conf ] ; then \
+-		install -g root -o root -m 0644 z8530drv.conf ${prefix}/etc/ax25/z8530drv.conf.ex ; \
++		install -m 0644 z8530drv.conf ${prefix}/etc/ax25/z8530drv.conf.ex ; \
+ 	else \
+-		install -g root -o root -m 0644 z8530drv.conf ${prefix}/etc/ax25/z8530drv.conf ; \
++		install -m 0644 z8530drv.conf ${prefix}/etc/ax25/z8530drv.conf ; \
+ 	fi
+ 
+ clean:

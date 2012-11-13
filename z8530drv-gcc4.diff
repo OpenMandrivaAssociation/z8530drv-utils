@@ -1,0 +1,11 @@
+--- sccinit.c-orig	1998-08-10 00:23:07.000000000 +0200
++++ sccinit.c	2006-06-08 22:18:58.000000000 +0200
+@@ -418,7 +418,7 @@
+ 						hwcfg.escc = (char) param;
+ 						break;
+ 					default:
+-						/* error */
++						break;/* error */
+ 				}
+ 			} else {
+ 				switch (command)
