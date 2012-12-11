@@ -48,3 +48,10 @@ make prefix=%{buildroot} install
 /sbin/sccparam
 %{_sbindir}/sccgencfg
 %{_sbindir}/kissbridge
+
+
+%changelog
+* Thu May 10 2012 Alexander Khrukin <akhrukin@mandriva.org> 3.0.3-1
++ Revision: 798058
+- imported package z8530drv-utils
+
