@@ -4,7 +4,7 @@ Group:        Communications
 Provides:     z8530drv
 Obsoletes:    z8530drv
 Version:      3.0.3
-Release:      1
+Release:      2
 Summary:      Linux driver for Z8530 based HDLC cards for AX.25
 Source0:      ftp://ftp.ccac.rwth-aachen.de/pub/jr/z8530drv-utils_3.0-3.tar.gz
 Patch0:        z8530drv-gcc4.diff
