@@ -9,7 +9,7 @@ Summary:      Linux driver for Z8530 based HDLC cards for AX.25
 Source0:      ftp://ftp.ccac.rwth-aachen.de/pub/jr/z8530drv-utils_3.0-3.tar.gz
 Patch0:        z8530drv-gcc4.diff
 Patch1:       z8530drv-buildserv.diff
-URL:          http://yaina.de/jreuter/linux/scc.en.html
+URL:          https://yaina.de/jreuter/linux/scc.en.html
 # Patch:   z8530drv-utils-3.0.dif
 
 %description
